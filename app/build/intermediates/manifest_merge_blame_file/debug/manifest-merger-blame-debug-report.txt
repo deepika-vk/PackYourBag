@@ -1,0 +1,105 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.packyourbag"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="27"
+8-->F:\AndroidStudioProjects\PackYourBag\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="34" />
+9-->F:\AndroidStudioProjects\PackYourBag\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->F:\AndroidStudioProjects\PackYourBag\app\src\main\AndroidManifest.xml:5:5-35:19
+12        android:allowBackup="true"
+12-->F:\AndroidStudioProjects\PackYourBag\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.7.0] C:\Users\RDRL_BIDAR\.gradle\caches\transforms-3\0212d0c0c0b99c5d00c15a82a811f4d1\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+14        android:dataExtractionRules="@xml/data_extraction_rules"
+14-->F:\AndroidStudioProjects\PackYourBag\app\src\main\AndroidManifest.xml:7:9-65
+15        android:debuggable="true"
+16        android:extractNativeLibs="false"
+17        android:fullBackupContent="@xml/backup_rules"
+17-->F:\AndroidStudioProjects\PackYourBag\app\src\main\AndroidManifest.xml:8:9-54
+18        android:icon="@drawable/app_icon_two"
+18-->F:\AndroidStudioProjects\PackYourBag\app\src\main\AndroidManifest.xml:9:9-46
+19        android:label="@string/app_name"
+19-->F:\AndroidStudioProjects\PackYourBag\app\src\main\AndroidManifest.xml:11:9-41
+20        android:roundIcon="@drawable/app_icon_two"
+20-->F:\AndroidStudioProjects\PackYourBag\app\src\main\AndroidManifest.xml:10:9-51
+21        android:supportsRtl="true"
+21-->F:\AndroidStudioProjects\PackYourBag\app\src\main\AndroidManifest.xml:12:9-35
+22        android:testOnly="true"
+23        android:theme="@style/Theme.PackYourBag" >
+23-->F:\AndroidStudioProjects\PackYourBag\app\src\main\AndroidManifest.xml:13:9-49
+24        <activity
+24-->F:\AndroidStudioProjects\PackYourBag\app\src\main\AndroidManifest.xml:15:9-22:36
+25            android:name="com.example.packyourbag.SplashScreen"
+25-->F:\AndroidStudioProjects\PackYourBag\app\src\main\AndroidManifest.xml:16:13-41
+26            android:exported="true" >
+26-->F:\AndroidStudioProjects\PackYourBag\app\src\main\AndroidManifest.xml:17:13-36
+27            <intent-filter>
+27-->F:\AndroidStudioProjects\PackYourBag\app\src\main\AndroidManifest.xml:18:9-22:25
+28                <action android:name="android.intent.action.MAIN" />
+28-->F:\AndroidStudioProjects\PackYourBag\app\src\main\AndroidManifest.xml:19:13-65
+28-->F:\AndroidStudioProjects\PackYourBag\app\src\main\AndroidManifest.xml:19:21-62
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->F:\AndroidStudioProjects\PackYourBag\app\src\main\AndroidManifest.xml:21:13-73
+30-->F:\AndroidStudioProjects\PackYourBag\app\src\main\AndroidManifest.xml:21:23-70
+31            </intent-filter>
+32        </activity>
+33        <activity
+33-->F:\AndroidStudioProjects\PackYourBag\app\src\main\AndroidManifest.xml:24:9-26:40
+34            android:name="com.example.packyourbag.AboutUs"
+34-->F:\AndroidStudioProjects\PackYourBag\app\src\main\AndroidManifest.xml:25:13-36
+35            android:exported="false" />
+35-->F:\AndroidStudioProjects\PackYourBag\app\src\main\AndroidManifest.xml:26:13-37
+36        <activity
+36-->F:\AndroidStudioProjects\PackYourBag\app\src\main\AndroidManifest.xml:27:9-29:40
+37            android:name="com.example.packyourbag.CheckList"
+37-->F:\AndroidStudioProjects\PackYourBag\app\src\main\AndroidManifest.xml:28:13-38
+38            android:exported="false" />
+38-->F:\AndroidStudioProjects\PackYourBag\app\src\main\AndroidManifest.xml:29:13-37
+39        <activity
+39-->F:\AndroidStudioProjects\PackYourBag\app\src\main\AndroidManifest.xml:30:9-34:20
+40            android:name="com.example.packyourbag.MainActivity"
+40-->F:\AndroidStudioProjects\PackYourBag\app\src\main\AndroidManifest.xml:31:13-41
+41            android:exported="false" >
+41-->F:\AndroidStudioProjects\PackYourBag\app\src\main\AndroidManifest.xml:32:13-37
+42        </activity>
+43
+44        <service
+44-->[androidx.room:room-runtime:2.6.1] C:\Users\RDRL_BIDAR\.gradle\caches\transforms-3\6c0f89cdf2525b243db174a8f05063ca\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+45            android:name="androidx.room.MultiInstanceInvalidationService"
+45-->[androidx.room:room-runtime:2.6.1] C:\Users\RDRL_BIDAR\.gradle\caches\transforms-3\6c0f89cdf2525b243db174a8f05063ca\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+46            android:directBootAware="true"
+46-->[androidx.room:room-runtime:2.6.1] C:\Users\RDRL_BIDAR\.gradle\caches\transforms-3\6c0f89cdf2525b243db174a8f05063ca\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+47            android:exported="false" />
+47-->[androidx.room:room-runtime:2.6.1] C:\Users\RDRL_BIDAR\.gradle\caches\transforms-3\6c0f89cdf2525b243db174a8f05063ca\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+48
+49        <provider
+49-->[androidx.emoji2:emoji2:1.0.0] C:\Users\RDRL_BIDAR\.gradle\caches\transforms-3\98f686da2fce73ff8e48ca6a893a34a2\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+50            android:name="androidx.startup.InitializationProvider"
+50-->[androidx.emoji2:emoji2:1.0.0] C:\Users\RDRL_BIDAR\.gradle\caches\transforms-3\98f686da2fce73ff8e48ca6a893a34a2\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+51            android:authorities="com.example.packyourbag.androidx-startup"
+51-->[androidx.emoji2:emoji2:1.0.0] C:\Users\RDRL_BIDAR\.gradle\caches\transforms-3\98f686da2fce73ff8e48ca6a893a34a2\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+52            android:exported="false" >
+52-->[androidx.emoji2:emoji2:1.0.0] C:\Users\RDRL_BIDAR\.gradle\caches\transforms-3\98f686da2fce73ff8e48ca6a893a34a2\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+53            <meta-data
+53-->[androidx.emoji2:emoji2:1.0.0] C:\Users\RDRL_BIDAR\.gradle\caches\transforms-3\98f686da2fce73ff8e48ca6a893a34a2\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+54                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+54-->[androidx.emoji2:emoji2:1.0.0] C:\Users\RDRL_BIDAR\.gradle\caches\transforms-3\98f686da2fce73ff8e48ca6a893a34a2\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+55                android:value="androidx.startup" />
+55-->[androidx.emoji2:emoji2:1.0.0] C:\Users\RDRL_BIDAR\.gradle\caches\transforms-3\98f686da2fce73ff8e48ca6a893a34a2\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+56            <meta-data
+56-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\RDRL_BIDAR\.gradle\caches\transforms-3\087e3e4f119bd3d4d28bb978bd0efd9b\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+57                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+57-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\RDRL_BIDAR\.gradle\caches\transforms-3\087e3e4f119bd3d4d28bb978bd0efd9b\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+58                android:value="androidx.startup" />
+58-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\RDRL_BIDAR\.gradle\caches\transforms-3\087e3e4f119bd3d4d28bb978bd0efd9b\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+59        </provider>
+60    </application>
+61
+62</manifest>
